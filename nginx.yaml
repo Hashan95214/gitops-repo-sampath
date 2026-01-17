@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: ghcr.io/hashan95214/gitops-repo-sampath:test123
+          image: 
           ports:
             - containerPort: 80
