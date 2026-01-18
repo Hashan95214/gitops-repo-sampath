@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
 spec:
-  replicas: 2  # Number of pods
+  replicas: 2
   selector:
     matchLabels:
       app: nginx
@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-image: 
+          image: ghcr.io/hashan95214/nginx-deploy:new1234
           ports:
             - containerPort: 80
+
