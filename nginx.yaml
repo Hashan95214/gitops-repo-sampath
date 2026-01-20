@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: ghcr.io/hashan95214/nginx-deploy:fcdd941
+          image: ghcr.io/hashan95214/nginx-deploy:7cebff0
           ports:
             - containerPort: 80
 
