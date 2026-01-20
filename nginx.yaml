@@ -14,6 +14,8 @@ spec:
       labels:
         app: nginx
     spec:
+      imagePullSecrets:
+      - name: ghcr-secret
       containers:
         - name: nginx
           image: ghcr.io/hashan95214/nginx-deploy:7cebff0
